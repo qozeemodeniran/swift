@@ -1,4 +1,4 @@
-var optionalName: String? = nil // optional varible
+var optionalName: String? = nil // optional variable
 var greeting = "Hello!"
 
 // make conditional
