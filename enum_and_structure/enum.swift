@@ -23,7 +23,7 @@ enum Rank: Int {
     // function that compares two Rank values by comparing their raw values
     static func compareRanks(rank1: Rank, rank2: Rank) -> Int {
         if rank1.rawValue < rank2.rawValue {
-            return -1
+            return -1 
         } else if rank1.rawValue == rank2.rawValue {
             return 0
         } else {
