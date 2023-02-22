@@ -10,3 +10,4 @@ var current_login_attempt = 0
 // declaring multiple variables on a single line
 var var1=40, var2=50, var3=60
 
+print(var1)
