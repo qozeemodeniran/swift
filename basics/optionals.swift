@@ -15,3 +15,7 @@ response = nil //contains no value at all: nil cannot be used with non-optional 
 
 // in the case where optional variable is declared without a value, it is automatically set to nil
 var answer: String?
+
+// Note
+
+// Don’t use an implicitly unwrapped optional when there’s a possibility of a variable becoming nil at a later point. Always use a normal optional type if you need to check for a nil value during the lifetime of a variable.
