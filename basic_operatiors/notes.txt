@@ -1,0 +1,2 @@
+Operator - special symbol or phrase that can be used to check, combine, or change values.
+
