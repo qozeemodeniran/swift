@@ -9,3 +9,6 @@ Binary operators operate on two targets (such as 2 + 3) and are infix because th
 Ternary operators operate on three targets. Like C, Swift has only one ternary operator, the ternary conditional operator (a ? b : c).
 
 The values that operators affect are operands. In the expression 1 + 2, the + symbol is an infix operator and its two operands are the values 1 and 2.
+
+Arithmetic Operators
+swift operators do not allow values overflow by default. However, we can opt in for this behavior by using the overflow operators (&+ b)
